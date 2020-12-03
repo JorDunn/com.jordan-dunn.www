@@ -1,0 +1,16 @@
+{
+  "name": "com.jordan-dunn.www",
+  "version": "1.0.0",
+  "description": "My online resume",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Jordan Dunn",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "handlebars": "^4.7.6"
+  }
+}
