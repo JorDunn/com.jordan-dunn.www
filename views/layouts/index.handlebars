@@ -5,10 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />  
     <title>Jordan Dunn</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-    <link rel="stylesheet" type="text/css" href="{{ static_path }}/css/main.css" />
-    <link rel="stylesheet" type="text/css" href="{{ static_path }}/css/resume.css"
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.1/css/bulma.min.css" integrity="sha512-ZRv40llEogRmoWgZwnsqke3HNzJ0kiI0+pcMgiz2bxO6Ew1DVBtWjVn0qjrXdT3+u+pSN36gLgmJiiQ3cQtyzA==" crossorigin="anonymous" />
+    <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
   </head>
   <body>
-    {{{body}}}
+    <div class="section">
+      <div class="container">
+        <h1 class="title">Jordan Dunn</h1>
+      </div>
+    </div>
+    <div class="container">
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <!--<a class="navbar-item" href="/">
+          <img src="https://via.placeholder.com/112x28.png?text=Jordan+Dunn" width="112" height="28" />
+        </a>-->
+        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item" href="https://jordan-dunn.com">Home</a>
+          <a class="navbar-item" href="/projects">Projects</a>
+          <a class="navbar-item" href="https://github.com/JorDunn" target="_blank">GitHub</a>
+          <a class="navbar-item" href="https://pypi.org/user/JorDunn" target="_blank">PyPI</a>
+          <a class="navbar-item" href="https://linkedin.com/in/jordunn" target="_blank">LinkedIn</a>
+        </div>
+      </div>
+    </nav>
+    </div>
+    <div class="section">
+      <div class="container">
+        {{{body}}}
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>Copyright &copy; 2020, Jordan Dunn. Website built with <a href="#">ExpressJS</a>, <a href="#">Handlebars</a>, and <a href="#">Bulma</a></p>
+      </div>
+    </footer>
   </body>
 </html>
